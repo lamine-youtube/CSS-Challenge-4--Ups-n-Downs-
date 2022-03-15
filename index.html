@@ -1,0 +1,63 @@
+<div>
+  <div></div>
+  
+  <div>
+  	<div class="top"></div>
+  </div>
+  
+  <div></div>
+  
+  <div>
+  	<div class="bottom"></div>
+  </div>
+  
+  <div></div>
+  
+  <div>
+  	<div class="bottom"></div>
+  </div>
+</div>
+
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 100wv;
+    height: 100vh;
+    background: #62306d;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body > div {
+    width: 75%;
+    height: 66.5%;
+    
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body > div > div {
+    width: 33.33%;
+    height: 50%;
+  }
+  
+  body > div > div > div {
+    width: 100%;
+    height: 100%;
+    background: #f7ec7d;
+  }
+  .top {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  .bottom {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  
+</style>
